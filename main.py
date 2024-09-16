@@ -13,7 +13,6 @@ def username():
         return
     except ValueError:
         pass
-
 root = tk.Tk()
 root.wm_title("Приветствие")
 
@@ -35,4 +34,5 @@ button = tk.Button(root,text='Отправить', command=username)
 button.pack()
 
 root.mainloop()
+
 
