@@ -17,6 +17,14 @@ def username():
 root = tk.Tk()
 root.wm_title("Приветствие")
 
+label = tk.Label(root, text='')
+label.pack()
+
+entry = tk.Entry(root)
+entry.pack()
+
+button = tk.Button(root, text='Отправить', command=username)
+button.pack()
 label = tk.Label(root, text='Введите ваше имя: ')
 label.pack()
 
